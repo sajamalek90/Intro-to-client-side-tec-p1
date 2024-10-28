@@ -39,24 +39,16 @@ body {
 }
 
 .cont {
-    max-width: 1020px;
-    border: solid 2px var(--green);
+    border: solid 1px var(--green);
     border-radius: 20px;
     padding: 25px;
     padding-inline: 50px;
-    margin: 100px auto;
+    margin: 100px auto 0;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;;
 }
 
 .cont:hover {
     background-color: var(--secondary-color);
-    /* box-shadow: rgba(165, 182, 141, 0.4) -5px 5px, rgba(165, 182, 141, 0.3) -10px 10px, rgba(165, 182, 141, 0.2) -15px 15px, rgba(165, 182, 141, 0.1) -20px 20px, rgba(165, 182, 141, 0.05) -25px 25px; */
-}
-
-.cont-right {
-    margin-right: 20px;
-    margin-left: 370px;
-    box-shadow: rgba(165, 182, 141, 0.4) 5px 5px, rgba(165, 182, 141, 0.3) 10px 10px, rgba(165, 182, 141, 0.2) 15px 15px, rgba(165, 182, 141, 0.1) 20px 20px, rgba(165, 182, 141, 0.05) 25px 25px;
 }
 
 .head {
@@ -89,18 +81,41 @@ h3 {
     font-size: 20px;
 }
 
-ul {
-    padding-left: 50px;
-}
-
 .intro {
     margin: auto;
 }
 
-.inside {
+.html .inside {
+    padding-left: 50px;
     font-size: 17px;
 }
 
+.links a {
+    text-decoration: none;
+    color: var(--green);
+}
+
+.links a:hover {
+    color: var(--orange);
+}
+
+.links li {
+    list-style: none;
+}
+
+.links .head {
+    text-align: left;
+}
+
+.links .body {
+    display: flex;
+}
+
+.links .body .left {
+    margin-right: 150px;
+}
+
+/* Media Query */
 @media (max-width: 480px) {
     .container .title {
         font-size: 20px; 
@@ -114,9 +129,5 @@ ul {
         max-width: 480px;
         padding: 15px;
         margin-bottom: 40px;
-    }
-
-    .cont-right {
-        margin-left: 20px;
     }
 }
