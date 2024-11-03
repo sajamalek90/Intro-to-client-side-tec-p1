@@ -1,4 +1,4 @@
-"# Intro-to-client-side-tech"
+"# Intro-to-client-side-technologies part-1"
 - Stracture of HTML file
 - Headings in HTML
 - Elements in HTML
