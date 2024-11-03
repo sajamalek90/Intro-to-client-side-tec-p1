@@ -17,7 +17,7 @@ body {
 }
 
 .container {
-    margin: 20px;
+    margin: 10px;
     Padding: 10px;
     display: flex;
     flex-direction: column;
