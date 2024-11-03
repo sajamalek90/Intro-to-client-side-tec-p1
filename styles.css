@@ -85,34 +85,59 @@ h3 {
     margin: auto;
 }
 
-.html .inside {
+.inside {
     padding-left: 50px;
+    font-size: 18px;
+}
+
+.html .inside {
     font-size: 17px;
 }
 
-.links a {
+.useful-links a {
     text-decoration: none;
     color: var(--green);
 }
 
-.links a:hover {
+.useful-links a:hover {
     color: var(--orange);
 }
 
-.links li {
+.useful-links li {
     list-style: none;
 }
 
-.links .head {
+.useful-links .head {
     text-align: left;
 }
 
-.links .body {
+.useful-links .body {
     display: flex;
 }
 
-.links .body .left {
+.useful-links .body .left {
     margin-right: 150px;
+}
+
+table, th, td {
+    border-collapse: collapse;
+    border: 1px solid;
+}
+
+th, td {
+    padding-inline: 15px;
+}
+
+table .center {
+    text-align: center;
+}
+
+.ins {
+    color: red;
+}
+
+.li {
+    padding-left: 15px;
 }
 
 /* Media Query */
