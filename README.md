@@ -8,3 +8,4 @@
 - HTML Links
 - HTML Images
 - HTML Lists
+- HTML Entities

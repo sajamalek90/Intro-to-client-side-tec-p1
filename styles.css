@@ -119,9 +119,14 @@ h3 {
     margin-right: 150px;
 }
 
+table {
+    margin: auto;
+}
+
 table, th, td {
     border-collapse: collapse;
     border: 1px solid;
+    text-align: center;
 }
 
 th, td {
